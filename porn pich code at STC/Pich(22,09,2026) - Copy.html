@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes the page responsive on phones and tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pich - Personal Profile</title>
+
+    <style>
+        /* Basic page styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f5f7;
+            color: #333;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        /* Main profile card */
+        .profile-card {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 16px;
+            box-shadow: 0 5px 20px : purple(231, 8, 134, 0.08);
+            text-align: center;
+        }
+
+        /* Profile image */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 7px solid #b1ec9c;
+            margin-bottom: 15px;
+        }
+
+        /* Main heading */
+        h1 {
+            color: #f70c0c;
+            margin-bottom: 5px;
+        }
+
+        /* Role text */
+        .role {
+            color: #2d6cdf;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        /* Bio section */
+        .bio {
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        /* Hobby section */
+        .hobbies {
+            text-align: left;
+            margin-top: 25px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            border: 1px solid #e5e5e5;
+        }
+
+        .hobbies h2 {
+            margin-top: 0;
+            color: #0ad7e2;
+        }
+
+        .hobbies li {
+            margin: 8px 0;
+        }
+
+        /* Social links */
+        .links {
+            margin-top: 25px;
+        }
+
+        .links a {
+            color: white;
+            background-color: #2d6cdf;
+            text-decoration: none;
+            padding: 9px 14px;
+            margin: 4px;
+            display: inline-block;
+            border-radius: 6px;
+        }
+
+        .links a:hover {
+            background-color: #ea0b51;
+        }
+
+        /* Small footer text */
+        footer {
+            margin-top: 25px;
+            color: #db0eed;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main semantic content of the profile page -->
+    <main class="profile-card">
+
+        <!-- Profile image -->
+        <!-- This example uses a free image URL. You can replace it with your own image. -->
+        <img
+            class="profile-image"
+            src="professional photo.jpg"
+            alt="Profile photo of Pich"
+        >
+
+        <!-- Name and role -->
+        <header>
+            <h1>Pich</h1>
+            <p class="role">Student; Beginner Web Developer</p>
+        </header>
+
+        <!-- Short introduction -->
+        <section class="bio">
+            <p>
+                Hello! My name is <strong>Pich</strong>. I am a
+                <em>student</em> who is learning how to build websites
+                using HTML and CSS.
+            </p>
+
+            <p>
+                <mark>Hard work never betrays us.</mark>
+            </p>
+
+            <small>I am always learning something new and improving my skills.</small>
+        </section>
+
+        <!-- Hobbies and interests -->
+        <section class="hobbies">
+            <h2>My Hobbies</h2>
+
+            <ul>
+                <li>Travelling</li>
+                <li>Listening to music</li>
+                <li>Coffee</li>
+                <li>Reading a novel</li>
+                <li>Sleeping</li>
+            </ul>
+        </section>
+
+        <!-- Links to social and professional websites -->
+        <section class="links">
+            <h2>Find Me Online</h2>
+
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                YouTube
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+            </a>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <small>&copy; 2026 Pich. Made with HTML &amp; CSS.</small>
+        </footer>
+
+    </main>
+
+</body>
+</html>
